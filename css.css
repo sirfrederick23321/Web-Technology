@@ -1,0 +1,47 @@
+body {
+    background-color: #666;
+    font-family: Roboto Mono;
+    font-size: 12px;
+    color: white;
+    margin-top:20px;
+}
+
+.gamescreen {
+    background-color:#333;
+    margin:auto;
+    padding:20px;
+    width:864px;
+    height: 504px;
+    text-align: center;
+    box-shadow: 0 0 7px #000000;
+}
+
+.gametitle {
+    font-family: Fondamento;
+    font-size:40px;
+    text-shadow: 0 0 3px #FFF;
+    animation: pulse 3s linear;
+}
+
+#start {
+    animation: pulse 1s infinite alternate;
+    background-color: #333;
+    border: none;
+    color:#FFF;
+    font-family:inherit;
+    font-size:inherit;
+    cursor:pointer;
+}
+
+.start.game {
+  display:none;
+}
+
+@keyframes pulse {
+    0% {opacity:0.1;}
+    100% {opacity:1; text-shadow: 0 0 3px #FFF;}
+}
+
+.gamescreen {
+    
+}
